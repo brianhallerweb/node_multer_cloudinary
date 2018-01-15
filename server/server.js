@@ -10,10 +10,11 @@ const upload = multer({ storage: storage });
 const cloudinary = require("cloudinary");
 
 cloudinary.config({
-  cloud_name: "brianhallerweb",
-  api_key: "574846749284825",
-  api_secret: "-G1krosA4aRXET_T28tOoKE6C-Y"
+  cloud_name: "",
+  api_key: "",
+  api_secret: ""
 });
+//you can find your config information on the cloudinary dashboard
 
 mongoose.connect("mongodb://localhost/dogsMulter");
 
