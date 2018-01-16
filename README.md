@@ -10,7 +10,7 @@
 
 * I'm not sure how to serve stored images on the server. One option is to keep
   them in a static folder that is served with express middleware but I don't
-  think that works well with react. I believe there is a way of serving images
+  think that works for dynamic uploads and views with react. I believe there is a way of serving images
   with get requests but I never discovered one. It seems that using a hosting
   service like Cloudinary is preferable.
 
